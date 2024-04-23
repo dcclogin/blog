@@ -8,7 +8,7 @@ tags: CPS
 This is derived from a CPSed interpreter.
 If you understand so called 2-level lambda notations (in Olivier Danvy's old papers), then it's trivial.
 
-```racket
+```text
 (define cps
   (λ (expr C)
     (match expr

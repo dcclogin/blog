@@ -35,6 +35,6 @@ My philosophical, mathematical, logical, computaional, physical, and political o
 
 [C311/B521 Programming Languages](https://plprinciples.luddy.indiana.edu/index.html) | Spring22 → Spring23
 [B555 Machine Learning]() | Fall23
-
+[C343 Data Structures](https://iudatastructurescourse.github.io/course-web-page-spring-2024/) | Spring24
 
 

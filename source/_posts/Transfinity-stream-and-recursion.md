@@ -10,12 +10,12 @@ tags:
 As you might see, this cannot be a worse title. But recently I was inspired by Zizek's interpretation on Kant's transcendental objects and Lacan's *objet petit a*, in his book *Less Than Nothing*, to make these many things connected in a gradual sense.
 
 To begin with, one will assume a counting from zero. With 'set representation', one can write down:
-```
+```text
 {0, 1, 2, ...}
 ```
 
 You might think it's the set of natural number, the aleph-naught, or something similar. It's not yet informative to that extent. Symbolically, one can argue that `...` is too fuzzy. It nontheless means the "constant possibility of `+1`", as if the magical infinity "spits out" one but itself still remain intact.
-```
+```text
 {...}
 {0, ...}
 {0, 1, ...}
@@ -23,7 +23,7 @@ You might think it's the set of natural number, the aleph-naught, or something s
 ```
 
 It's fascinating to think there is a "point of impossibility", an inaccessable `X` beyond all finite ones, lying at the 'end' of the series:
-```
+```text
 {0, 1, 2, ..., X}
 ```
 The impossible/inaccessable `X` within the set can be viewed as a 'transcendental one perceived empirically'.
@@ -36,18 +36,18 @@ Now we have a pair of ideas opposite to each other:
 What if there is a **short-circuit** between them? What if the impossible `X` itself is the constant possibility of adding one, represented as `{...}` (and any other representations with `...` inside like `{0, 1, 2, ...}`)?
 
 With one more step forward, one can write this down carefully:
-```
+```text
 {0, 1, 2, ..., {0, 1, 2, ...}}
 ```
 
 It's exactly a counting from zero to one. One can continue adding the symbol `X` in the nested set, and unfold it further:
-```
+```text
 {0, 1, 2, ..., {0, 1, 2, ..., X}}
 {0, 1, 2, ..., {0, 1, 2, ..., {0, 1, 2, ...}}}
 ```
 
 The "constant possibility of adding one" is now inscribed into the level where the unfolding goes on. To make it more concise, if one takes `{0, 1, 2, ..., X}` as a totality of "constant possibility of adding one", and `=` as the short-circuit operation:
-```
+```text
 X = {0, 1, 2, ..., X}
 ```
 
@@ -56,7 +56,7 @@ It is the transfinity.
 ### Stream
 
 A simple variant of the above result would be like:
-```
+```text
 X = (1, X)
 X = (1, (1, X))
 X = (1, (1, (1, X)))
@@ -74,27 +74,27 @@ Stream is no more than transfinity. It's a "constant possibility of unfolding", 
 ### Fixpoint and recursion
 
 Another more general variant of the above result is something called 'fixed point' or 'fixpoint' (recall 'point of impossibility'):
-```
+```text
 X = F(X)
 ```
 where `F` is some mathematical or computational function. Here the transfinity lies in, at the most obvious level, the constant possibility of applying the function `F`:
-```
+```text
 X = F(X)
 X = F(F(X))
 X = F(F(F(X)))
 ```
 
 One can say it's too general and has nothing informative. There is nontheless one tiny tweak to be done to make it powerful - what if `X` is also indexed by another variable, that is, `X` is some `g(x)`?
-```
+```text
 g(x) = F(g(x))
 ```
 This is a recursion without 'termination conditions', with `F` as the 'wrapper' of the recursive call to `g`. To make it practical, one needs to specify the very data type of `x` and create at least one termination condition, for example:
-```
+```text
 g(0) = 0
 g(x+1) = F(g(x))
 ```
 Racket version:
-```
+```scheme
 (define (g x)
   (cond
     [(zero? x) 0]
@@ -118,13 +118,13 @@ Suppose we have a (finite) collection/set, say `{0, 1, 2, 3}`. The critical idea
 
 Note the italic *other* here. The **Otherness** seems to be more explicit and tangible in category theory. But let me first introduce the Big Other under set theory - `A` is defined as:
 
-```
+```text
 A = {0, 1, 2, 3, A}
 ```
 
 In other words, `A` is something like the set itself, while it's also part of the set. It has the ability to unfold itself unboundedly (**repetition**). Compared to any "usual others" like `0`, `A`'s identity is indeed a self-referential tautology (the Master's Signifier). One can easily imagine its political counterpart - people with various identities "issued" by a special agency, who pretends to be just a "usual element". One should not miss a dialectical tension here - only by degrading itself into the commonplace can it impose an effective rule:
 
-```
+```text
 A = {0, 1, 2, 3}
 ```
 
@@ -132,7 +132,7 @@ This is an imaginary-idiot tyrant which is clearly not the case for modernity. B
 
 Now, one cannot help but ask the question: how does the Big Other successfully "hide" itself? The answer is - by objet petit a - `a` is defined as:
 
-```
+```text
 a = {a, A}
 ```
 
@@ -145,7 +145,7 @@ To sum up, **Gaze** is the `=` operation in `0 = {1, 2, 3}`, `1 = {0, 1, 2}`...(
 
 In category theory, the Yoneda Embedding shows *the gaze proper*:
 
-```
+```text
 X ↦ Hom(_,X)
 ```
 

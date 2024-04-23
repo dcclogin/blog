@@ -8,7 +8,7 @@ tags: HoTT
 In Cubical Agda, there are multiple ways to prove a property of paths. For example, the most straightforward way to prove symmetricity is to use the primitive operator `~` on intervals:
 
 
-```agda
+```text
 ≡-symm : ∀ {ℓ} {A : Type ℓ} {a b : A} → a ≡ b → b ≡ a
 ≡-symm {ℓ}{A}{a}{b} p = λ i → p (~ i)
 ```
@@ -42,7 +42,7 @@ You may also use *coercion*. The key is to construct a *type line* from `refl : 
 
 ![](symm-coe.png)
 
-```agda
+```text
 coe0→1 : ∀ {ℓ} (A : I → Type ℓ) → A i0 → A i1
 coe0→1 A a = transp (λ i → A i) i0 a
 
