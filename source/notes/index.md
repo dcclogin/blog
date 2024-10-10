@@ -8,8 +8,13 @@ Catalog of notes.
 
 ## Research
 
-- [Walsh-Hadamard Transform]()
+- [Walsh-Hadamard Transform](./walsh-hadamard)
 
 ## Teaching
 
 - [Routing Wires (C343)](./routing-wires-c343)
+
+## Praxis
+
+- [Incohérences et Différences](./difference)
+- [Category Praxis](./category)

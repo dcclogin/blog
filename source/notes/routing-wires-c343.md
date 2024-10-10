@@ -22,7 +22,7 @@ Question: What constitutes a **solution**?
 1. The chip board is **updated** (wires all connected / goals all succeed).
 2. An **ordered** list of wires is returned.
 
-Therefore, a solution can be represented as a combination of a **permutation** of goals qua input.
+Therefore, a solution can be represented as a **permutation** of goals.
 
 ### Example 1
 
@@ -266,7 +266,7 @@ md:    1  2  3  3  4  7
 ### Try All Permutations (no pruning)
 
 Recall:
-- a solution can be represented as a combination of a **permutation** of goals as input.
+- a solution can be represented as a **permutation** of goals as input.
 
 Therefore it's possible to loop over all permutations until a feasible solution is found. Generally, there is no pruning in this solution, which means there might be some unnecessary fails. But it depends on the implementation of `nextPermutaion` and can be combined with heuristics.
 

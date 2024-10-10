@@ -4,21 +4,19 @@ date: 2023-02-28 23:50:13
 type: about
 ---
 
-Contact: cd17@iu.edu | Github: [dcclogin](https://github.com/dcclogin) | Office: TBA
+Contact: cd17@iu.edu | Github: [dcclogin](https://github.com/dcclogin) | Office: [Nowhere]() in Luddy Hall
 
-I am a Ph.D. student in the Department of Computer Science at Luddy School of Informatics, Computing, and Engineering (SICE), Indiana University Bloomington. I once majored in Bioinformatics at Shanghai Jiao Tong University. My interests range from theoretical aspects of programming languages to philosophy. I am currently exploring Homotopy Type Theory and its computational models; personally interested in inscription of radical physicality - a variety of intensional properties into the very extensional notion of mathematical and classically computaional functions...(time, space, velocity, information effects, quantum effects, and so on)
+I am a Ph.D. student in the Department of Computer Science at Luddy School of Informatics, Computing, and Engineering (SICE), Indiana University Bloomington. I once majored in Bioinformatics at Shanghai Jiao Tong University. My interests range from theoretical aspects of programming languages to continental philosophy (Phenomenology as well as other descendants of German Idealism). I have a strong interest to reconcile PL/Mathematics/Formal Logics and continental philosophy. My favorite authors are Jean-Yves Girard, Alain Badiou, and Slavoj Žižek.
 
-I extended [A circuit-like notation for lambda calculus](https://csvoss.com/circuit-notation-lambda-calculus) to an informal "topological" model of λ-calculus - [λ-circuits](https://github.com/dcclogin/SereneAzure/blob/master/lambda-circuits-215.pdf). Partial evaluation and supercompilation can be shown clearly with them. You can also view them as an alternative approach to natural deduction and Gentzen style reasoning, but they are not eligible to cover dependent types and beyond intuitively. I did this mainly for fun, and out of some minimalistic beliefs.
+I am currently working on exploring quantum computing (quantum advantages, its relation to classical computing, its physical and philosophical implications etc.) from a programming language perspective. Nothing in conclusion so far :)
 
-I have been reading German philosophers (from Kant to Husserl), Buddhism and classical Chinese thoughts. I have a strong urge to reconcile programming-language/math/logic and continental philosophy. My favorite reading stuff are from Jean-Yves Girard, Alain Badiou, and Slavoj Žižek.
+You may learn more about my philosophical obsessions from [here](../notes/difference). 
 
-My philosophical, mathematical, logical, computaional, physical, and political obsessions locate themselves in the very concept (or the huge constellation of concepts) of 'negation'/'negativity' (Hegel) and 'equalities'/'equivalences' (Ontology). To much to be articulated in my future posts...
+## List of stuff
 
-## A List of Stuff...
-
-[Cubical Sqrt](https://github.com/dcclogin/cubical-sqrt) - (In progress) an experimental project on reversible programming, quantum computing, and cubical type theory.
+[Cubical Sqrt](https://github.com/dcclogin/cubical-sqrt) - (In progress) the title is misleading since it's still experimental.
 [λ-Circuit](https://github.com/dcclogin/SereneAzure/blob/master/lambda-circuits-215.pdf) - a graphical prototype language of lambda calculus.
- - [Slides 0](lambda-circuit-0.pdf), [Slides 1](), [Document]()
+ - [Slides](lambda-circuit-0.pdf), [Slides](), [Document]().
 
 ## Recommended Resources
 
@@ -33,8 +31,13 @@ My philosophical, mathematical, logical, computaional, physical, and political o
 
 ## Teaching
 
-[C311/B521 Programming Languages](https://plprinciples.luddy.indiana.edu/index.html) | Spring22 → Spring23
-[B555 Machine Learning]() | Fall23
-[C343 Data Structures](https://iudatastructurescourse.github.io/course-web-page-spring-2024/) | Spring24
+| Course | Role | Year | Semester |
+| :--: | :--: | :--: | :--: |
+| [C343 Data Structures](https://iudatastructurescourse.github.io/course-web-page-spring-2024/) | Associate Instructor | 2024 | Spring |
+| B555 Machine Learning | Associate Instructor | 2023 | Fall |
+| [C311/B521 Programming Languages](https://plprinciples.luddy.indiana.edu/index.html) | TA | 2023 | Spring |
+| [C311/B521 Programming Languages](https://plprinciples.luddy.indiana.edu/index.html) | TA | 2022 | Fall |
+| [C311/B521 Programming Languages](https://plprinciples.luddy.indiana.edu/index.html) | Master TA | 2022 | Spring |
+
 
 
